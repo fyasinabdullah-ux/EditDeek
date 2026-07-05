@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { useRouter } from 'next/navigation';
 
-const supabase = createClient(process.env.nmbdsvypwxviwueadzab!, process.env.nmbdsvypwxviwueadzab!);
+const supabase = createClient('https://nmbdsvypwxviwueadzab.supabase.co', 'sb_publishable_65Kjzf3tPUSzBnf8qmkCkw_vX-i2zrW')
 
 export default function HomePage() {
   const router = useRouter();
